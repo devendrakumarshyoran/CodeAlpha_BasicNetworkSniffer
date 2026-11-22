@@ -1,4 +1,4 @@
-# Network Traffic Analyzer
+# CodeAlpha — Basic Network Sniffer & Traffic Analyzer
 
 A Python-based Security Operations Center (SOC) inspired network monitoring and threat detection tool built using **Scapy**, **Pandas**, **Plotly**, and **Streamlit**.
 
@@ -11,7 +11,7 @@ A Python-based Security Operations Center (SOC) inspired network monitoring and 
 
 ## Project Structure
 
-    Network_Traffic_Analyzer/
+    CodeAlpha_BasicNetworkSniffer/
     ├── sniffer.py            # Live packet capture module (Scapy)
     ├── detector.py           # Traffic analytics & rule-based threat detection engine
     ├── analyzer.py           # CLI summary & anomaly checker
