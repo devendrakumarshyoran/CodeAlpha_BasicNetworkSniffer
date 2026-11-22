@@ -1,0 +1,42 @@
+====================================================================
+               NETWORK TRAFFIC & SECURITY ANALYSIS REPORT           
+====================================================================
+Report Generated : 2026-11-22 16:43:24
+Capture Window   : 2026-11-22 16:35:36  to  2026-11-22 16:35:38
+
+1. EXECUTIVE TRAFFIC SUMMARY
+--------------------------------------------------------------------
+Total Packets Captured : 99
+Total Bandwidth Usage  : 83.06 KB (85050 Bytes)
+Average Packet Size    : 859.09 Bytes
+Incoming Packets       : 59
+Outgoing Packets       : 40
+
+2. PROTOCOL DISTRIBUTION
+--------------------------------------------------------------------
+- TCP     : 97 packets (98.0%)
+- UDP     : 2 packets (2.0%)
+
+3. TOP ACTIVE CONNECTIONS (BY PACKET VOLUME)
+--------------------------------------------------------------------
+- 199.232.214.172 -> 192.168.0.104 [TCP] : 56 packets (82320 Bytes)
+- 192.168.0.104 -> 199.232.214.172 [TCP] : 38 packets (2376 Bytes)
+- 208.103.161.17 -> 192.168.0.104 [TCP] : 2 packets (133 Bytes)
+- 142.250.182.74 -> 192.168.0.104 [UDP] : 1 packets (67 Bytes)
+- 192.168.0.104 -> 142.250.182.74 [UDP] : 1 packets (71 Bytes)
+
+4. SUSPICIOUS ACTIVITY & THREAT DETECTION LOGS
+--------------------------------------------------------------------
+[1] SEVERITY: HIGH | High Traffic Spike / Potential Flood
+    Source IP      : 199.232.214.172
+    Evidence       : Sent 56 packets (56.6% of captured traffic).
+    Recommendation : Inspect traffic rate and consider rate-limiting or blocking IP if unauthorized.
+
+[2] SEVERITY: LOW | High Bandwidth Consumption
+    Source IP      : 199.232.214.172
+    Evidence       : Transferred 80.39 KB during capture session.
+    Recommendation : Verify whether large data transfer corresponds to legitimate media/updates.
+
+====================================================================
+End of Automated Security Report
+====================================================================
